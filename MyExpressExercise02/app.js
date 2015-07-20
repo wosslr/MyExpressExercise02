@@ -38,6 +38,7 @@ app.get('/users', user.list);
 app.get('/userlist', routes.userlist(db));
 app.get('/login', routes.login);
 app.get('/login2', routes.login2);
+app.get('/arts_list', routes.artsList);
 
 
 http.createServer(app).listen(app.get('port'), function(){

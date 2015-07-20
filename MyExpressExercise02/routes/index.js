@@ -30,3 +30,9 @@ exports.login2 = function(req, res) {
 		title : 'Smart Gallery'
 	});
 };
+
+exports.artsList = function(req, res) {
+	res.render('arts_list', {
+		title : 'Smart Gallery'
+	});
+};
